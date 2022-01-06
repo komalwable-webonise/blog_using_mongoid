@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/bin/node /home/webonise/.yarn/bin/yarn.js --v
+
+PATH: 
+  /home/webonise/.rvm/gems/ruby-2.5.0/bin:/home/webonise/.rvm/gems/ruby-2.5.0@global/bin:/usr/share/rvm/rubies/ruby-2.5.0/bin:/usr/share/rvm/bin:/home/webonise/.yarn/bin:/home/webonise/.config/yarn/global/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  10.19.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com registry.yarnpkg.com:443
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+
+npm manifest: 
+  {
+    "name": "blog",
+    "private": true,
+    "dependencies": {
+      "@rails/ujs": "^6.0.0",
+      "turbolinks": "^5.2.0",
+      "@rails/actioncable": "^6.0.0"
+    },
+    "version": "0.1.0"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
